@@ -11,7 +11,7 @@ class AuthInput(BaseModel):
 @router.post("/login")
 def login(auth: AuthInput):
     # In a real application, validate username and password from a database
-    if auth.usename == "admin" and auth.password == "admin":
+    if auth.username == "admin" and auth.password == "admin":
         token = create_token({"sub": auth.username})
         return {'access_token': token}
     return {'error': 'Invalid credentials'}
