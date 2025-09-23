@@ -1,0 +1,51 @@
+# Ignore Python cache and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.dist-info/
+.eggs/
+build/
+dist/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# IDE and editor configs
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Tests (if not needed in image)
+tests/
+
+# Git
+.git
+.gitignore
+
+# Docker / Compose files (only needed locally)
+docker-compose.yml
+
+# Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Local data
+data/
+*.csv
+*.xlsx
