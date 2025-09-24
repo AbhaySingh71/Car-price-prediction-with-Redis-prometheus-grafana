@@ -4,6 +4,12 @@
 
 A FastAPI-based car price prediction service that demonstrates a production-like setup: model inference served via an API, Redis for caching predictions, JWT-based authentication, API key validation, and Prometheus + Grafana for metrics and observability.
 
+## 📸 Project Demo  
+
+| ![Screenshot 1](utils/demo1.png) | ![Screenshot 2](utils/demo2.png) |  
+|---------------------------------|---------------------------------|  
+| ![Screenshot 3](utils/demo5.png) | ![Screenshot 4](utils/demo6.png) |  
+
 ---
 
 ## Table of contents
