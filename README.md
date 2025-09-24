@@ -176,6 +176,20 @@ Response:
 
 ---
 
+🚀 Deployment
+
+This project is deployed on Render Cloud Platform and can be accessed live:
+
+👉 https://car-price-prediction-with-redis.onrender.com/docs
+
+The deployed service includes:
+
+FastAPI backend for car price predictions
+
+JWT + API Key authentication for secure access
+
+Swagger UI available at /docs for testing endpoints online
+
 ## Extending the project
 
 * Add user registration & database-backed auth.
