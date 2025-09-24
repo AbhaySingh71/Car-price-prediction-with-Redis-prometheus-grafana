@@ -10,6 +10,8 @@ A FastAPI-based car price prediction service that demonstrates a production-like
 |---------------------------------|---------------------------------|  
 | ![Screenshot 3](utils/demo5.png) | ![Screenshot 4](utils/demo6.png) |  
 
+| ![Screenshot 3](utils/demo3.png) | ![Screenshot 4](utils/demo4.png) | 
+
 ---
 
 ## Table of contents
